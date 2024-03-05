@@ -1,0 +1,124 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    max-width: 100%;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+
+.contianer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input,
+button {
+    padding: 8px;
+    margin-right: 12px;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#fileInput {
+    padding-left: 24px;
+    max-width:360px;
+}
+
+input {
+    width: 360px;
+}
+
+#svgCodeContainer,
+#svgCodeContainerData{
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+#svgCodeContainerData
+{
+    font-weight: 600;
+    font-size: 14px;
+}
+button {
+    width: 180px;
+    height: 38px;
+    margin: 24px 0;
+}
+
+form {
+    margin: 112px 24px;
+    text-align: center;
+}
+label {
+    font-size: medium;
+    font-weight: 600;
+    padding: 12px;
+}
+
+svg {
+    margin: 12px;
+}
+section p {
+    margin-left: 24px;
+}
+span{
+    color: rgb(74, 152, 216);
+}
+.description{
+    padding :24px 0;
+}
+a {
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+        color: whitesmoke;
+        font-weight: 600;
+        width: fit-content;
+    }
+@media screen and (max-width: 475px) {
+    label {
+        margin-bottom: 72px;
+    }
+
+    input {
+        padding-left: 0;
+        width: 120px;
+    }
+
+    button {
+        width: 120px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    label {
+        margin-bottom: 120px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    button {
+        width: 120px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
